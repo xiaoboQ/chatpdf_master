@@ -1,0 +1,44 @@
+[
+    {
+        "x-api-key": "sec_IB4utx616TgY5AAW8cupSsXgOTIre4oa",
+        "fileData": {
+            "A Surrogate Modeling and Adaptive Sampling": "src_yVaa6bErIdzSNir6M6MyE",
+            "Hierarchical Attention Networks for Document Classification": "src_s2X6L2TdU0R9XsPkotrJB",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition": "src_JgLbYrJg47zhF5wL5F8Ci"
+        }
+    },
+    {
+        "x-api-key": "sec_VL3Ak8ZftZYr6hVwB41LxSzGUywUiMd5",
+        "fileData": {
+            "A Frustratingly Easy Approach for Entity and Relation Extraction": "src_bA0PKFtNOyhwSlnfvLIAp",
+            "Annotation-Inspired Implicit Discourse Relation Classification with Auxiliary Discourse Connective Generation": "src_7CuRvr80es6CiT0FxFk6y",
+            "Attention_Retrieval_Model_for_Entity_Relation_Extraction_From_Biological_Literature": "src_DtcwK5LHZFdjz3qQWqjvN",
+            "AutoRC Improving BERT Based Relation Classification Models via Architecture Search": "src_rxVbRiRYVRzguWaxRp8fs",
+            "A_Graph_Convolutional_Network_With_Multiple_Dependency_Representations_for_Relation_Extraction": "src_eqVGbqb4kvD4FrvCehrWU",
+            "Consistent Prototype Learning for Few-Shot Continual Relation Extraction": "src_LoP5MuePGykBqLzOKiIp1",
+            "Cue prompt adapting model for relation extraction": "src_DO3HdLYr5pwJgyWTrbTcl",
+            "CVAE-based Re-anchoring for Implicit Discourse Relation Classification": "src_LYSdB4AxKXn2dJyG4wMK7",
+            "D-REX Dialogue Relation Extraction with Explanations": "src_uPL5HFXlu5o1zjpHxf4H3",
+            "Dependency-aware Prototype Learning for Few-shot Relation Classification": "src_VNDj3QFHnROY2zdCXtAOL",
+            "Effective Modeling of Encoder-Decoder Architecture for Joint Entity and Relation Extraction": "src_QQ2sbFbcJ0bj8nKFNCnBS",
+            "Few-Shot Relation Classification Research Based on Prototypical Network and Causal Intervention": "src_U1xnRTQkx2MPOis6USspT",
+            "Fine-Grained_Relation_Extraction_for_Drug_Instructions_Using_Contrastive_Entity_Enhancement": "src_OtARKFRu9VRUJGoyGfHz7",
+            "GDA Generative Data Augmentation Techniques for Relation Extraction Tasks": "src_37X6jc1spkTIES6C0MVd2",
+            "Generative Prompt Tuning for Relation Classification": "src_0CdAiTAlgPwvyxuNdXmqF",
+            "Implicit Discourse Relation Classification We Need to Talk about Evaluation": "src_bflV3Aizu3AluTBgDaD8H",
+            "Improving Distantly-Supervised Relation Extraction Through BERT-Based Label and Instance Embeddings": "src_qzXkahP2F2gieQ29Uafgm",
+            "KnowPrompt Knowledge-aware Prompt-tuning with Synergistic Optimization for Relation Extraction": "src_0NCJCDpPqearzXKfqAjSD",
+            "Multi-Channel Convolutional Neural Networks with Adversarial Training for Few-Shot Relation Classification (Student Abstract)": "src_ZgAksNnSLqomPm47LeRzV",
+            "Multilingual Relation Classification via Efficient and Effective Prompting": "src_1vHJu9RSQue1VLGsjXr6Y",
+            "No clues good clues Out of context Lexical Relation Classification": "src_fJTAWHAzFx6Fl4dT9gGw7",
+            "PARE A Simple and Strong Baseline for Monolingual and Multilingual Distantly Supervised Relation Extraction": "src_sBAcluQFZUc74t83PeBbM",
+            "Pretrained Knowledge Base Embeddings for improved Sentential Relation Extraction": "src_bQPxeHyZLSCyzGNrhWKit",
+            "PromptORE  A Novel Approach Towards Fully Unsupervised Relation Extraction": "src_lkBgL784brWxxdMlKjQ05",
+            "Relation Classification with Entity Type Restriction": "src_OIKLLTpH5jvdXNTK72sMg",
+            "Silver Syntax Pre-training for Cross-Domain Relation Extraction": "src_6mHAZ7dGS6L6Kmnl7YUE1",
+            "Temporal Relation Classification using Boolean Question Answering": "src_QHuwGKRUG3UFNZUrAjpBj",
+            "Two are Better than One Joint Entity and Relation Extraction with Table Sequence Encoders": "src_lJmnyE7pVJrlZMSUKdz3a",
+            "Within-Between Lexical Relation Classification": "src_ZdwBL5NVQQCKpZfUi0z57"
+        }
+    }
+]
