@@ -1,8 +1,8 @@
 from pypdf import Pypdf, PypdfRecoder
 
 # 填入apiKey信息
-pypdf = Pypdf(apiKey="xxx")
-pdfRecoder = PypdfRecoder(pypdf=pypdf, outputPath="./output")
+pypdf = Pypdf(apiKey="***")
+pdfRecoder = PypdfRecoder(pypdf=pypdf, outputPath="./output_test")
 content = "请介绍一下本文的内容，告诉我其中涉及到什么实验方法"
 
 prompt = f"""
@@ -14,6 +14,6 @@ task: [{content}]
 """
 
 # 填入当前pdf对应的sourceId信息
-whetherSuccess, answer = pdfRecoder.chatSinglePDF(sourceId="xxx", content=prompt)
+whetherSuccess, answer = pdfRecoder.chatSinglePDF(sourceId="src_VNDj3QFHnROY2zdCXtAOL", content=prompt)
 
 print(answer)

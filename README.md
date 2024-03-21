@@ -87,7 +87,7 @@ print(data)
 ```python
 from pypdf import Pypdf, PypdfRecoder
 
-pypdf = Pypdf(apiKey="sec_IB4utx616TgY5AAW8cupSsXgOTIre4oa")
+pypdf = Pypdf(apiKey="***")
 # 这里需要初始化outputPath路径
 # 你添加的pdf文件数据如pdf_name以及souce_id都会存储在该路径下
 # 同时你询问的每一个对话数据也都会产生在该文件夹下
@@ -113,7 +113,7 @@ from pypdf import Pypdf, PypdfRecoder, PDF
 from pypdfControl import ChatSingleCommand, Controller
 from pipeline_filter import PipelineFilter, filterKeyWords, filterPrompt
 
-pypdf = Pypdf(apiKey="sec_IB4utx616TgY5AAW8cupSsXgOTIre4oa")
+pypdf = Pypdf(apiKey="***")
 content = "请介绍一下本文的大致内容"
 
 
@@ -125,7 +125,7 @@ print(f"question:{content}")
 
 chatSingle = ChatSingleCommand() \
     .setPypdf(pypdf=pypdf) \
-    .setSourceId(sourceId="src_pWUaBip0D1mfU9UMbOyRi") \
+    .setSourceId(sourceId="***") \
     .setContent(content=content)
 controller = Controller(command=chatSingle)  # 将命令交给对应的controller进行执行
 # 命令模式-生成器模式测试

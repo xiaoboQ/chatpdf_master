@@ -1,5 +1,4 @@
 import requests
-import fastapi
 import os
 import json
 import uuid

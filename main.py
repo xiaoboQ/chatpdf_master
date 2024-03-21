@@ -2,7 +2,6 @@
 该文件用于测试chatpdf接口
 """
 import requests
-import fastapi
 
 
 def addExample():
