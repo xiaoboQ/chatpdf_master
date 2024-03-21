@@ -1,8 +1,8 @@
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from minichat import Ui_MainWindow
 from pypdf import Pypdf, PypdfRecoder
-from pypdfControl import ChatSingleCommand, Controller
-from pipeline_filter import PipelineFilter, filterKeyWords, filterPrompt
+from pypdf.pypdfControl import ChatSingleCommand, Controller
+from pypdf.pipeline_filter import PipelineFilter, filterKeyWords, filterPrompt
 import sys
 
 

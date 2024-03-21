@@ -66,8 +66,8 @@ contents = ["请介绍一下本文的摘要", "本文有没有提到过一些实
 
 # 添加pdf文件
 pdfs = []
-pdfs.append(PDF(pdf_name="A Surrogate Modeling and Adaptive Sampling", source_id="src_yVaa6bErIdzSNir6M6MyE"))
-pdfs.append(PDF(pdf_name="Hierarchical Attention Networks for Document Classification", source_id="src_s2X6L2TdU0R9XsPkotrJB"))
+pdfs.append(PDF(pdf_name="A Surrogate Modeling and Adaptive Sampling", source_id="***"))
+pdfs.append(PDF(pdf_name="Hierarchical Attention Networks for Document Classification", source_id="***"))
 # 多个问题询问所选的全部pdf文件
 whetherSuccess, data = pypdf.multipleQuestionChatAllPDF(contents=contents, pdfs=pdfs)
 print(data)
@@ -93,7 +93,7 @@ pypdf = Pypdf(apiKey="***")
 # 同时你询问的每一个对话数据也都会产生在该文件夹下
 pdfRecoder = PypdfRecoder(pypdf=pypdf, outputPath="./output")
 content = "请介绍一下本文的大致内容"
-whetherSuccess, answer = pdfRecoder.chatSinglePDF(sourceId="src_pWUaBip0D1mfU9UMbOyRi", content=content)
+whetherSuccess, answer = pdfRecoder.chatSinglePDF(sourceId="***", content=content)
 ```
 
 - 这里需要初始化outputPath路径
@@ -110,12 +110,11 @@ whetherSuccess, answer = pdfRecoder.chatSinglePDF(sourceId="src_pWUaBip0D1mfU9UM
 
 ```python
 from pypdf import Pypdf, PypdfRecoder, PDF
-from pypdfControl import ChatSingleCommand, Controller
-from pipeline_filter import PipelineFilter, filterKeyWords, filterPrompt
+from pypdf.pypdfControl import ChatSingleCommand, Controller
+from pypdf.pipeline_filter import PipelineFilter, filterKeyWords, filterPrompt
 
 pypdf = Pypdf(apiKey="***")
 content = "请介绍一下本文的大致内容"
-
 
 piplineFilter = PipelineFilter().addFilters(filterKeyWords).addFilters(filterPrompt)
 # 测试管道过滤器
@@ -123,10 +122,10 @@ content = piplineFilter.executeMode(content=content)
 # 这里将内容进行了扩充，增加了提示词
 print(f"question:{content}")
 
-chatSingle = ChatSingleCommand() \
-    .setPypdf(pypdf=pypdf) \
-    .setSourceId(sourceId="***") \
-    .setContent(content=content)
+chatSingle = ChatSingleCommand()
+.setPypdf(pypdf=pypdf)
+.setSourceId(sourceId="***")
+.setContent(content=content)
 controller = Controller(command=chatSingle)  # 将命令交给对应的controller进行执行
 # 命令模式-生成器模式测试
 answer = controller.executeCommand
